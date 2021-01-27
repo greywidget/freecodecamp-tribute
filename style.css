@@ -1,0 +1,90 @@
+/*
+General Styling
+*/
+
+/*
+Set a base font size of 10px for easier rem
+calculations as per the fcc tribute example page.
+*/
+html {
+    font-size: 10px;
+    font-family: 'Alegreya', serif;
+}
+
+body {
+    font-size: 1.5rem;
+    color: #000;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a {
+    color: #477ca7;
+}
+
+a:visited {
+    color: #74638f;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+#main {
+    margin: 40px 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+#img-div {
+    background: white;
+    border-radius: 5px;
+    padding: 50px 50px 10px 50px;
+    margin: 0 50px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #666;
+    border-radius: 5px;
+}
+.medium-image {
+    width: 696px;
+}
+
+figcaption, .photo-source {
+    font-size: 1.3rem;
+}
+.photo-source {
+    margin-top: 0.25rem;
+}
+
+#tribute-info {
+    max-width: 650px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-size: 2rem;
+}
+
+li {
+    margin: 16px 0;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
