@@ -66,11 +66,10 @@ img {
     width: 696px;
 }
 
-figcaption, .photo-source {
+figcaption p {
     font-size: 1.3rem;
-}
-.photo-source {
     margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
 #tribute-info {
