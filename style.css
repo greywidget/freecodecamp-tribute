@@ -79,6 +79,10 @@ li {
     margin: 16px 0;
 }
 
+blockquote {
+    font-weight: bold;
+}
+
 footer {
     margin: 0;
     padding: 0;
